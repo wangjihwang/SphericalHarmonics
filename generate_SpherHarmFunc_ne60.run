@@ -1,0 +1,7 @@
+#!/bin/csh -f
+idl << EOF 
+.compile SpherHarm_recur2.pro
+.run generate_SpherHarmFunc_ne60.pro
+EOF
+
+exit
